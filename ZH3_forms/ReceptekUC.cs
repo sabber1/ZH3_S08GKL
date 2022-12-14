@@ -123,7 +123,7 @@ namespace ZH3_forms
         {
             // Adatok 
 
-            string[] fejlec = { "Recept ID", "Név", "Mennyiság 4 főre", "Mennyiségi egység", "Ár" };
+            string[] fejlec = { "Név", "Mennyiság 4 főre", "Mennyiségi egység", "Ár" };
 
             Fogasok fogas = (Fogasok)listBox1.SelectedItem;
 
@@ -153,11 +153,11 @@ namespace ZH3_forms
 
             for (int i = 0; i < items.Count(); i++)
             {
-                adatTomb[i, 0] = items[i].FogasId;
-                adatTomb[i, 1] = items[i].Név;
-                adatTomb[i, 2] = items[i].Mennyiség4;
-                adatTomb[i, 3] = items[i].MennyisegiEgysegs;
-                adatTomb[i, 4] = items[i].EgysÁr;
+                // adatTomb[i, 0] = items[i].FogasId;
+                adatTomb[i, 0] = items[i].Név;
+                adatTomb[i, 1] = items[i].Mennyiség4;
+                adatTomb[i, 2] = items[i].MennyisegiEgysegs;
+                adatTomb[i, 3] = items[i].EgysÁr;
             }
 
             Excel.Range adatRange = xlWs.get_Range("A2", Type.Missing).get_Resize(sorokSzama, oszlopokSzama);
