@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32802.462
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZH3_forms", "ZH3_forms\ZH3_forms.csproj", "{A92D5C4F-0B59-4D39-BEC0-FAC7B4340831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZH3_asp", "ZH3_asp\ZH3_asp.csproj", "{6C5A311D-1BA6-4F58-A7DB-7D8EFE366004}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A92D5C4F-0B59-4D39-BEC0-FAC7B4340831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92D5C4F-0B59-4D39-BEC0-FAC7B4340831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A92D5C4F-0B59-4D39-BEC0-FAC7B4340831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A92D5C4F-0B59-4D39-BEC0-FAC7B4340831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C5A311D-1BA6-4F58-A7DB-7D8EFE366004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C5A311D-1BA6-4F58-A7DB-7D8EFE366004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C5A311D-1BA6-4F58-A7DB-7D8EFE366004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C5A311D-1BA6-4F58-A7DB-7D8EFE366004}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A786FA8F-F63A-4F26-B507-FE6BAB3FF873}
+	EndGlobalSection
+EndGlobal
