@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZH3_forms", "ZH3_forms\ZH3_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZH3_asp", "ZH3_asp\ZH3_asp.csproj", "{6C5A311D-1BA6-4F58-A7DB-7D8EFE366004}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sqlscripts", "sqlscripts", "{CC8D6508-7556-4E66-8C8A-06374C784B55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
